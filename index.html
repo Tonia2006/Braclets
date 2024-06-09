@@ -6,12 +6,14 @@
         <header>
             <div class="demons">
                 <h1>Магазин браслетів</h1>
-                <a href="">Головна</a>
-                <details>
-                    <summary><a href="">Мови</a></summary>
-                    <summary><a href="">Українська</a></summary>
-                    <summary><a href="">Францюзька</a></summary>
-                </details>
+                <div class="where">
+                    <a href="">Головна</a>
+                    <details>
+                        <summary><a href="">Мови</a></summary>
+                        <summary><a href="">Українська</a></summary>
+                        <summary><a href="">Францюзька</a></summary>
+                    </details>
+                </div>
             </div>
         </header>
         <main>
@@ -68,9 +70,16 @@
 
         .demons{
             background-color: white;
-            filter: blur(5);
+            filter: blur(5%);
             display: flex;
             justify-content: space-between;
+            justify-content: space-around;
+        }
+
+        .where{
+            display: flex;
+            justify-content: space-between;
+            justify-content: space-around;
         }
 
     </style>
