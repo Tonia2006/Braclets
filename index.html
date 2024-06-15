@@ -55,10 +55,10 @@
             </section>
         </main>
         <footer>
-            <h3>Контаки</h3>
-            <p>Номер телефону: +380 73 434 ****</p>
-            <p>Пошта: maria@com</p>
-            <p>Телеграм/Вайбер: </p>
+            <h2>Контаки</h2>
+            <p><span>Номер телефону:</span> +380 73 434 ****</p>
+            <p><span>Пошта:</span> maria@com</p>
+            <p><span>Телеграм/Вайбер:</span> </p>
         </footer>
     </body>
 
@@ -70,7 +70,7 @@
             background-image: linear-gradient(to bottom, #E4CEFF, #422988);
             font-family: "Caveat", cursive;
             font-optical-sizing: auto;
-            font-weight: <weight>;
+            font-weight: weight;
             font-style: normal;
         
         }
@@ -94,6 +94,8 @@
             text-decoration: none;
             font-size: 20px;
             color: black;
+            display: flex;
+            top: 10px;
         }
 
         .information{
@@ -116,7 +118,7 @@
 
         .good a{
             font-size: 16px;
-            top: 10px;
+            text-decoration: underline;
         }
 
         .good p{
@@ -150,7 +152,7 @@
         }
 
         footer{
-            background-color: white;
+            background-image: linear-gradient(to right, #DBC5F8, #422988);
             border-radius: 23px; 
             padding: 10px;
         }
@@ -159,9 +161,13 @@
             font-size: 24px;
         }
 
-        footer h3{
+        footer h2{
             text-decoration: underline;
             text-shadow: 0px 4px 4px grey;
+        }
+
+        footer span{
+            text-decoration: underline;
         }
 
         
