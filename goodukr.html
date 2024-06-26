@@ -268,11 +268,13 @@
     <script>
         let comWrite = document.querySelector(textarea)
         let sendButton = document.querySelector(send)
-        let com = document.querySelector(com)
+        let com = document.querySelectorAll(com)
         let comArea = document.querySelector(coms)
         
-        function sent(coms){
-            coms.add(comWrite)
+        function sent(comment){
+            if (comWrite != " "){
+                coms.style.color = "red"
+            }
         }
 
         sendButton.addEventListener(click, sent)
