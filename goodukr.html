@@ -45,7 +45,7 @@
                     </div>
                     <div class="write">
                         <textarea></textarea>
-                        <button>Відправити</button>
+                        <button class = "send">Відправити</button>
                     </div>
                 </div>
             </section>
@@ -197,7 +197,7 @@
 
         }
 
-        .write button{
+        .send{
             height: 50px;
             width: 590px;
             background-color: #422988;
@@ -266,7 +266,18 @@
     </style>
 
     <script>
+        let comWrite = document.querySelector(textarea)
+        let sendButton = document.querySelector(send)
+        let com = document.querySelector(com)
+        let comArea = document.querySelector(coms)
+        
+        function sent(coms){
+            coms.add(comWrite)
+        }
 
+        sendButton.addEventListener(click, sent)
+
+        
     </script>
 
 </html>
