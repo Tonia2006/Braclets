@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
     const saveComment = (author, content) =>{
         const comments = JSON.parse(localStorage.getItem("comments"))||[];
-        comments.push({author, comments});
+        comments.push({author, content});
         localStorage.setItem("comments", JSON.stringify(comments));
     };
 
