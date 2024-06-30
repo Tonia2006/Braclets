@@ -28,10 +28,11 @@
                 </article>
             </section>
             <button>Зробити замовлення</button>
+
             <section class="commentaires">
                 <h1>Відгуки</h1>
                 <div class="coms">
-                    <div class="com">
+                    <!--<div class="com">
                         <img src="pexels-eftodii-aurelia-90976-735423.jpg">
                         <p>Прийшло вчасно, дуже гарний браслет.</p>
                     </div>
@@ -46,7 +47,19 @@
                     <div class="write">
                         <textarea></textarea>
                         <button class = "send">Відправити</button>
-                    </div>
+                    </div>-->
+
+                    <form id="comment-form">
+                        <input typy="text" id="author" placeholder="Your name" requried>
+                        <br>
+                        <textarea id="content" placeholder="Your comment" requried></textarea>
+                        <br>
+                        <button type="submit">Add comment</button>
+                    </form>
+                    <h2>All comments</h2>
+                    <ul id="comments-list"></ul>
+                    <script src="app.js"></script>
+
                 </div>
             </section>
             
