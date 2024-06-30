@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('comment-form');
     const commentsList = document.getElementById('comments-list');
