@@ -32,7 +32,7 @@
                 <h1>Commentaires</h1>
                 <div class="coms">
                     <div class="com">
-                        <img src="pexels-eftodii-aurelia-90976-735423.jpg">
+                        <!--<img src="pexels-eftodii-aurelia-90976-735423.jpg">
                         <p>Il est arrivé à temps, un très beau bracelet.</p>
                     </div>
                     <div class="com">
@@ -46,7 +46,20 @@
                     <div class="write">
                         <textarea></textarea>
                         <button class = "send">Envoyer</button>
-                    </div>
+                    </div>-->
+
+                    <form id="comment-form">
+                        <input typy="text" id="author" placeholder="Your name" requried>
+                        <br>
+                        <textarea id="content" placeholder="Your comment" requried></textarea>
+                        <br>
+                        <button class="help" type="submit">Add comment</button>
+                    </form>
+                    <h2>All comments</h2>
+                    
+                    <ul id="comments-list"></ul>
+                    <script src="appfr.js"></script>
+
                 </div>
             </section>
             
