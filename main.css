@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body{
+    background-image: linear-gradient(to bottom, #E4CEFF, #422988);
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+        
+}
+
+.demons{
+    background-color: white;
+    margin: 10px;
+    border-radius: 23px; 
+        }
+
+.wood{
+    display: flex;
+    justify-content: space-around;
+}
+
+.wood h1, .wood a{
+    text-shadow: 0px 4px 4px grey;
+}
+        
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.information{
+    background-image: linear-gradient(to right, #FFFFFF, #DBC5F8);
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 23px; 
+}
+
+.information h1{
+    text-decoration: underline;
+    text-shadow: 0px 4px 4px grey;
+}
+
+.good img{
+    height: 204;
+    border-radius: 23px;
+}
+
+
+.good p{
+    font-size: 20px;
+}
+
+.good{
+    width: 240px;
+    height: 277px;
+    border-radius: 23px;
+    background-color: white;
+    filter: blur(4px);
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;     
+}
+
+.good:hover{
+    filter: blur(0);
+    transition: 1s blur(0);
+    box-shadow: 0px 4px 4px black;
+}
+
+.goods{
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;            
+}
+
+footer{
+    background-image: linear-gradient(to right, #DBC5F8, #755db8);
+    border-radius: 23px; 
+    padding: 10px;
+}
+
+footer p{
+    font-size: 24px;
+}
+
+footer h2{
+    text-decoration: underline;
+    text-shadow: 0px 4px 4px grey;
+}
+
+footer span{
+    text-decoration: underline;
+}
