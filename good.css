@@ -24,6 +24,10 @@ body{
    text-shadow: 0px 4px 4px grey;
 }
 
+.wood a:hover{
+   text-decoration: underline;
+}
+
 
 a{
    text-decoration: none;
