@@ -187,7 +187,7 @@ button:hover{
    } 25% {
       transform: rotateZ(40deg)
    } 75% {
-      transform: rotateZ(140deg)
+      transform: rotateZ(-40deg)
    }
 
 }
