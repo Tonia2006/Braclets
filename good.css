@@ -180,10 +180,24 @@ button:hover{
    color:black;
 }
 
-.send{
-   transform: rotateY('40 angle');
+
+@keyframes send_button{
+   0%{
+      transform: none;
+   } 25% {
+      transform: rotateY(40deg)
+   } 75% {
+      transform: rotateY(140deg)
+   }
+
 }
 
+.send{
+   animation-name: send_button;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   
+}
 
 
 footer{
