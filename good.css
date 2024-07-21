@@ -185,9 +185,9 @@ button:hover{
    0%{
       transform: none;
    } 25% {
-      transform: rotateZ(10deg)
+      transform: rotateX(10deg)
    } 75% {
-      transform: rotateY(10deg)
+      transform: rotateX(10deg)
    }
 
 }
