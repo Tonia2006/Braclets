@@ -183,11 +183,9 @@ button:hover{
 @keyframes good_rotate{
    0%{
       transform: none;
-   } 25% {
+   } 50% {
       transform: rotateY(40deg)
-   } 75% {
-      transform: rotateY(140deg)
-   }
+   } 
 
 }
 
