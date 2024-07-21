@@ -185,9 +185,9 @@ button:hover{
    0%{
       transform: none;
    } 25% {
-      transform: rotateY(40deg)
+      transform: perspective(400px)
    } 75% {
-      transform: rotateY(140deg)
+      transform: perspective(-400px)
    }
 
 }
@@ -196,7 +196,7 @@ button:hover{
    animation-name: send_button;
    animation-duration: 5s;
    animation-iteration-count: infinite;
-   
+
 }
 
 
