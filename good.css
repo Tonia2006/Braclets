@@ -185,9 +185,9 @@ button:hover{
    0%{
       transform: none;
    } 25% {
-      transform: perspective(400px)
+      transform: rotateZ(40deg)
    } 75% {
-      transform: perspective(-400px)
+      transform: rotateZ(140deg)
    }
 
 }
