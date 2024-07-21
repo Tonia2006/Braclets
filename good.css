@@ -191,7 +191,7 @@ button:hover{
 
 }
 
-.send{
+.good{
    animation-name: send_button;
    animation-duration: 5s;
    animation-iteration-count: infinite;
