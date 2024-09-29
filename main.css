@@ -53,17 +53,28 @@ a{
     justify-content: space-around; 
     flex-wrap: wrap;
     width: 100%;
+    border-radius: 50px;
+    font-size: 32px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 
 }
 
 .change{
     background-color: #FFFFFF;
-    border: 1px solid white;
     border-radius: 23px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 50%;
+    width: 30%;
     height: 34px;
+}
+
+
+
+.change:hover{
+    background-color: #E4CEFF;
 }
 
 .good img{
