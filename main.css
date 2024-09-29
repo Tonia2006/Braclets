@@ -65,10 +65,13 @@ a{
 .change{
     background-color: #FFFFFF;
     border-radius: 23px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
     width: 30%;
     height: 34px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 
