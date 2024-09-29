@@ -65,6 +65,7 @@ a{
 .change{
     background-color: #FFFFFF;
     border-radius: 23px;
+    margin: 5px;
     width: 30%;
     height: 34px;
     font-family: "Caveat", cursive;
@@ -72,7 +73,7 @@ a{
     font-weight: weight;
     font-style: normal;
     font-size: 32px;
-    padding-bottom:5px;
+    padding-bottom:10px;
     
 }
 
