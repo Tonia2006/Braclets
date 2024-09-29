@@ -52,6 +52,9 @@ a{
     display: flex;
     justify-content: space-around; 
     flex-wrap: wrap;
+}
+
+.change{
     background-color: #FFFFFF;
     border-radius: 23px;
     margin-left: 10px;
