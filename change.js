@@ -36,7 +36,8 @@ function changeBlockContent(){
     <a href="" class="good">
         <img src="pexels-noellegracephotos-906056.jpg">
         <p>Ціна: 100грн</p>
-    </a>    `;
+    </a>
+    `;
 }
 
 function changeBlockContentBraclet(){
@@ -74,7 +75,8 @@ function changeBlockContentNecklace(){
     <a href="" class="good">
         <img src="pexels-noellegracephotos-906056.jpg">
         <p>Ціна: 100грн</p>
-    </a>    `;
+    </a>    
+    `;
 }
 
 function changeBlockContentEarrings(){
@@ -83,7 +85,8 @@ function changeBlockContentEarrings(){
     <a href="" class="good">
         <img src="pexels-lara-artemova-784501-1648741.jpg">
         <p>Ціна: 100грн</p>
-    </a> `;
+    </a> 
+    `;
 }
 
 function changeBlockContentOther(){
@@ -92,6 +95,7 @@ function changeBlockContentOther(){
     <a href="" class="good">
         <img src="pexels-alena-yanovich-37077498-14180685.jpg">
         <p>Ціна: 100грн</p>
-    </a> `;
+    </a> 
+    `;
 }
 
