@@ -98,7 +98,7 @@ a{
     height: 277px;
     border-radius: 23px;
     background-color: white;
-    filter: blur(4px);
+    /*filter: blur(4px); */
     text-align: center;
     padding: 10px;
     margin-top: 10px;
@@ -106,9 +106,10 @@ a{
 }
 
 .good:hover{
-    filter: blur(0);
-    transition: 1s blur(0);
+    /*filter: blur(0);
+    transition: 1s blur(0);*/
     box-shadow: 0px 4px 4px black;
+    transition: 1s box-shadow(0px 4px 4px black);
 }
 
 .goods{
